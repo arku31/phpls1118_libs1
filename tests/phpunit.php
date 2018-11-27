@@ -11,8 +11,23 @@ class Math
     }
 }
 
+class XController {
+    public function get($id)
+    {
+        return ['id' => $id, 'name' => 'asdasd'];
+    }
+}
+
 final class MathTest extends TestCase
 {
+    public function testXController()
+    {
+        $controller = new XController();
+        $result = $controller->get(1); //feature
+        $this->assertArrayHasKey('name', $result);
+        $this->assertTrue($result['id'] == 1);
+    }
+
     public function testMultiplicate()
     {
         $result = 4;

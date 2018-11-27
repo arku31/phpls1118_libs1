@@ -4,3 +4,11 @@ SwiftMailer - отправка писем.
 Парсинг HTML (Symfony Crawler).
 Symfony FileSystem.
 Carbon - работа со временем.
+
+===
+Тестирование с PHPUnit.
+Валидация данных с GUMP.
+Eloquent ORM - работа с БД, миграции.
+Faker - использование фейковых данных.
+Intervention Image - работа с изображениями.
+Создаем свое JSON-api для работы с базой.

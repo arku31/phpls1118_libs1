@@ -10,5 +10,6 @@ class Config
         $dotenv = new Dotenv();
         $dotenv->load(APPLICATION_PATH.'/../.env');
         define('MODE', 'prod'); //or dev
+        require PUBLIC_PATH."/Eloquent/config.php";
     }
 }
